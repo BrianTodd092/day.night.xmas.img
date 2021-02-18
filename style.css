@@ -1,0 +1,32 @@
+#r, #t, #x, .ddimg, .nnimg { display: none;}
+
+.dimg {
+        position: relative;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: 25%;
+        background-image= url('imgday.png');
+        opacity: 0.5;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+
+
+.nimg {
+        position: relative;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: 25%;
+        background-image= url('imgnight.png');
+        opacity: 0.5;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+noscript {
+      color: steelblue;
+      font-weight: bold;
+      font-style: italic;
+}
