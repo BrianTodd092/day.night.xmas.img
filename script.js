@@ -10,7 +10,7 @@ var d = date.getDate();
 
 // Order of if & else if, True Line, False Line.
 
-function attachEvent(){
+window.onload = function attachEvent(){
 
 if ( month === 11){
 
