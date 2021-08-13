@@ -6,7 +6,7 @@
         margin-right: auto;
         margin-left: 25%;
         background-image= url('imgday.png');
-        opacity: 0.5;
+        opacity: 0.1;
         width: 50%;
         overflow-x: hidden;
         overflow-y: hidden;
@@ -20,8 +20,44 @@
         margin-right: auto;
         margin-left: 25%;
         background-image= url('imgnight.png');
-        opacity: 0.5;
+        opacity: 0.1;
         width: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+.day {
+        position: relative;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: 25%;
+        background-image= url('day.png');
+        opacity: 0.4;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+.night {
+        position: relative;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: 25%;
+        background-image= url('night.png');
+        opacity: 0.4;
+        width: 50%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+}
+
+.xmas {
+        position: relative;
+        margin-top: 4%;
+        margin-right: auto;
+        margin-left: 35%;
+        background-image= url('xmass.png');
+        opacity: 0.4;
+        width: 30%;
         overflow-x: hidden;
         overflow-y: hidden;
 }
